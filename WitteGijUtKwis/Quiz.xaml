@@ -1,0 +1,20 @@
+﻿<Window x:Class="WitteGijUtKwis.Quiz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        ResizeMode="NoResize"
+        Icon="images/logo.jpeg"
+        Title="Quiz" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="Vraag" Content="Wat is de carnavalsnaam van Berlicum?" HorizontalAlignment="Left" Margin="58,24,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="A" Content="A." HorizontalAlignment="Left" Margin="47,85,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="B" Content="B." HorizontalAlignment="Left" Margin="47,116,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="C" Content="C." HorizontalAlignment="Left" Margin="47,147,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="D" Content="D." HorizontalAlignment="Left" Margin="47,178,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Antwrd_A" Content="Vossendarp" HorizontalAlignment="Left" Margin="81,85,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Antwrd_B" Content="Oksedorp" HorizontalAlignment="Left" Margin="81,116,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Antwrd_C" Content="Dun Birrekoal" HorizontalAlignment="Left" Margin="81,147,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Antwrd_D" Content="Ernum" HorizontalAlignment="Left" Margin="81,178,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="356,42,0,0" VerticalAlignment="Top" Width="100" Source="images/muts.png"/>
+
+    </Grid>
+</Window>
